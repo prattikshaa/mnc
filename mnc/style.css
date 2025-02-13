@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.gradient{
+    font-family: Arial, Helvetica, sans-serif; 
+    background: linear-gradient(to right, #c0db55,
+            #6acafe, #ef56ef, #c156a9); 
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+}
+body{
+    background-image: url(https://wallpapercave.com/wp/wp9723575.jpg);
+    background-size: 100%;
+    color: white;
+    background-repeat: no-repeat;
+
+}
+.top{
+    height: 40px;
+    width: 40px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    margin-left:30px;
+    margin-right: 30px;
+    align-items: center;
+    height: 50px;
+}
+.middle a{
+    font-size: 20px;
+    padding-right: 35px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.middle{
+    margin-left: 380px;
+    margin-right: 400px;
+}
+.topbutton{
+    font-size: 20px;
+    border-radius: 40px;
+    height: 40px;
+    width: 100px;
+}
+.topbutton:hover{
+    background-color: rgb(232, 232, 150);
+}
+.center{
+    position: absolute;
+    top:250px;
+    left:210px ;
+    font-size: 80px;
+    font-weight: bold;
+    color: white;
+}
+.mid{
+    border-radius: 20px;
+    height: 40px;
+    width: 120px;
+    font-size: 20px;
+    background-color: #a5d5df;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    margin-left: 35px;
+}
+.first{
+    height: 300px;
+    width: 250px;
+    border: 2px solid black;
+    font-size: 17px;
+    align-content: center;
+    text-align: center;
+    background-color: white;
+    color: darkblue;
+    border-radius: 20px;
+    margin-right:40px ;
+    transition-delay: 1s;
+ }
+ .first:hover{
+    height:400px;
+    width: 350px;
+    font-size: 20px;
+ }
+ .footer{
+    background-color: rgb(23, 23, 44);
+}
+input{
+    width: 500px;
+    height: 40px;
+    border-radius: 20px;
+}
+.last{
+    height: 30px;
+    width: 50px;
+    font-size: 15px;
+    color: aliceblue;
+    background-color: black;
+}
+.s1{
+    margin-left: 200px;
+}
+.image{
+    height: 200px;
+    width: 200px;
+    margin-right: 50px;
+    border-radius: 50%;
+}
+.image:hover{
+    animation-name: round;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+@keyframes round{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.low{
+    margin-left:100px ;
+}
+
+
+
